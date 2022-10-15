@@ -58,7 +58,7 @@ SecA:toggle("Kill Aura", false, function(bool)
         KillAura()
     end
 end)
-SecA:slider("Cooldown",2,15,7, function(value)
+SecA:slider("Cooldown",1,15,7, function(value)
     _G.cooldown = value/10
 end)
 SecA:toggle("Collect Drop", false, function(bool)
